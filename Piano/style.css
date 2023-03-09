@@ -1,0 +1,37 @@
+button{
+    width: 160px;
+    height:50px;
+    background-color: #af4c4c;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    border-color: blueviolet;
+    color: white;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button#show{
+    display: block;
+    width: 350px;
+    height:50px;
+    background-color: #af4c96;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+} 
+h1{
+    text-align: center;
+    color:white;
+}
+.hero-section {
+    min-height: 100vh;
+    background: url("ff.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index:1;
+    animation: slide 1s ease-in-out;
+  }
